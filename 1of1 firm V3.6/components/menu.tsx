@@ -155,35 +155,35 @@ export default function Menu({ onNavigate }: MenuProps) {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-[100svh] md:min-h-screen flex flex-col items-center justify-center bg-black pt-0">
-        <div className="absolute inset-0 top-0 flex items-start justify-center pt-12 md:pt-0 md:items-center">
+      <section className="relative min-h-[60svh] md:min-h-screen flex flex-col items-center justify-start pt-16 md:justify-center md:pt-0 bg-black">
+        <div className="absolute inset-0 top-0 flex items-start justify-center pt-10 md:pt-0 md:items-center">
           <img 
             src="https://f005.backblazeb2.com/file/b21of1firm/background/home.jpg"
             alt="1 OF 1 FIRM Background"
-            className="w-full h-[95%] md:h-full object-contain md:object-cover object-top md:object-center"
+            className="w-full h-full object-contain md:object-cover object-top md:object-center"
           />
         </div>
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black" />
 
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-9xl font-light tracking-wider">
+        <div className="relative z-10 text-center px-4 mt-2 md:mt-0">
+          <h1 className="text-3xl md:text-9xl font-light tracking-wider">
             <span className="text-white">1</span>
-            <span className="text-white/80 text-2xl md:text-7xl mx-1 md:mx-4">OF</span>
+            <span className="text-white/80 text-xl md:text-7xl mx-1 md:mx-4">OF</span>
             <span className="text-white">1</span>
           </h1>
-          <p className="text-amber-500/80 text-[7px] md:text-base tracking-[0.4em] mt-2 md:mt-4">#1UNIQUEEXPERIENCE</p>
+          <p className="text-amber-500/80 text-[7px] md:text-base tracking-[0.4em] mt-1 md:mt-4">#1UNIQUEEXPERIENCE</p>
 
-          <div className="mt-4 md:mt-16 flex flex-col items-center">
-            <div className="w-px h-6 md:h-12 bg-amber-500/50" />
+          <div className="mt-2 md:mt-16 flex flex-col items-center">
+            <div className="w-px h-4 md:h-12 bg-amber-500/50" />
             <p className="text-white/70 text-[6px] md:text-xs tracking-[0.3em] mt-1 md:mt-4 uppercase">Enter the Universe</p>
-            <ChevronDown className="w-4 h-4 md:w-5 md:h-5 text-white/50 mt-1 animate-bounce" />
+            <ChevronDown className="w-3 h-3 md:w-5 md:h-5 text-white/50 mt-0.5 animate-bounce" />
           </div>
         </div>
       </section>
 
       {/* Menu Sections */}
-      <section className="relative z-10 -mt-32 md:-mt-20">
+      <section className="relative z-10 -mt-4 md:-mt-20">
         {/* SIGNATURE EVENTS - Expandable */}
         <MenuSection
           title="SIGNATURE EVENTS"
