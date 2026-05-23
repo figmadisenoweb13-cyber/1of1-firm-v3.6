@@ -155,7 +155,7 @@ export default function Menu({ onNavigate }: MenuProps) {
       />
 
       {/* Hero Section */}
-      <section className="relative h-[55svh] md:min-h-screen flex flex-col items-center justify-start pt-14 md:justify-center md:pt-0 bg-black">
+      <section className="relative h-[55svh] md:min-h-screen flex flex-col items-center justify-center bg-black">
         <div className="absolute inset-0">
           <img 
             src="https://f005.backblazeb2.com/file/b21of1firm/background/home.jpg"
@@ -166,7 +166,7 @@ export default function Menu({ onNavigate }: MenuProps) {
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black" />
 
-        <div className="relative z-10 text-center px-4 mt-2 md:mt-0">
+        <div className="relative z-10 text-center px-4 flex flex-col items-center justify-center">
           <h1 className="text-3xl md:text-9xl font-light tracking-wider">
             <span className="text-white">1</span>
             <span className="text-white/80 text-xl md:text-7xl mx-1 md:mx-4">OF</span>
