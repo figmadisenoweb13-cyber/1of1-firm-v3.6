@@ -39,8 +39,8 @@ function MenuSection({ title, subtitle, backgroundImage, hasGoldBorder = true, i
       
       <div className="relative z-10 p-6 flex items-center justify-between w-full">
         <div>
-          <h3 className="text-white font-light text-xl md:text-2xl tracking-wider uppercase">{title}</h3>
-          <span className="text-amber-500 text-xs md:text-sm tracking-widest uppercase flex items-center gap-2 mt-1">
+          <h3 className="text-white font-light text-sm md:text-2xl tracking-wider uppercase">{title}</h3>
+          <span className="text-amber-500 text-[9px] md:text-sm tracking-widest uppercase flex items-center gap-2 mt-1">
             {subtitle} {!hasSubmenu && <ChevronRight className="w-4 h-4" />}
           </span>
         </div>
