@@ -18,7 +18,7 @@ function MenuSection({ title, subtitle, backgroundImage, hasGoldBorder = true, i
   return (
     <div
       onClick={onClick}
-      className={`relative min-h-[140px] flex items-center overflow-hidden group cursor-pointer ${
+      className={`relative min-h-[100px] md:min-h-[140px] flex items-center overflow-hidden group cursor-pointer ${
         hasGoldBorder ? "border-l-2 border-amber-500" : ""
       }`}
     >
@@ -37,7 +37,7 @@ function MenuSection({ title, subtitle, backgroundImage, hasGoldBorder = true, i
       {/* Gradient overlay for smooth transition */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent" style={{ width: '60%' }} />
       
-      <div className="relative z-10 p-6 flex items-center justify-between w-full">
+      <div className="relative z-10 p-3 md:p-6 flex items-center justify-between w-full">
         <div>
           <h3 className="text-white font-light text-sm md:text-2xl tracking-wider uppercase">{title}</h3>
           <span className="text-amber-500 text-[9px] md:text-sm tracking-widest uppercase flex items-center gap-2 mt-1">
@@ -174,16 +174,16 @@ export default function Menu({ onNavigate }: MenuProps) {
           </h1>
           <p className="text-amber-500/80 text-[7px] md:text-base tracking-[0.4em] mt-2 md:mt-4">#1UNIQUEEXPERIENCE</p>
 
-          <div className="mt-8 md:mt-16 flex flex-col items-center">
-            <div className="w-px h-8 md:h-12 bg-amber-500/50" />
-            <p className="text-white/70 text-[6px] md:text-xs tracking-[0.3em] mt-2 md:mt-4 uppercase">Enter the Universe</p>
-            <ChevronDown className="w-5 h-5 text-white/50 mt-2 animate-bounce" />
+          <div className="mt-4 md:mt-16 flex flex-col items-center">
+            <div className="w-px h-6 md:h-12 bg-amber-500/50" />
+            <p className="text-white/70 text-[6px] md:text-xs tracking-[0.3em] mt-1 md:mt-4 uppercase">Enter the Universe</p>
+            <ChevronDown className="w-4 h-4 md:w-5 md:h-5 text-white/50 mt-1 animate-bounce" />
           </div>
         </div>
       </section>
 
       {/* Menu Sections */}
-      <section className="relative z-10 -mt-20">
+      <section className="relative z-10 -mt-32 md:-mt-20">
         {/* SIGNATURE EVENTS - Expandable */}
         <MenuSection
           title="SIGNATURE EVENTS"
@@ -236,24 +236,24 @@ export default function Menu({ onNavigate }: MenuProps) {
       </section>
 
       {/* Footer CTA */}
-      <section className="py-16 px-4 text-center bg-black">
-        <div className="w-12 h-px bg-amber-500 mx-auto mb-8" />
-        <p className="text-white/60 text-xs tracking-[0.3em] uppercase">This is not for everyone.</p>
-        <p className="text-amber-500 text-sm tracking-[0.4em] mt-2">#1UNIQUEEXPERIENCE</p>
+      <section className="py-8 md:py-16 px-4 text-center bg-black">
+        <div className="w-8 md:w-12 h-px bg-amber-500 mx-auto mb-4 md:mb-8" />
+        <p className="text-white/60 text-[10px] md:text-xs tracking-[0.3em] uppercase">This is not for everyone.</p>
+        <p className="text-amber-500 text-xs md:text-sm tracking-[0.4em] mt-1 md:mt-2">#1UNIQUEEXPERIENCE</p>
 
         <button 
           onClick={() => handleNavigate("buy-tickets")}
-          className="mt-8 px-12 py-3 border border-amber-500 text-amber-500 text-sm tracking-widest hover:bg-amber-500 hover:text-black transition-all duration-300"
+          className="mt-4 md:mt-8 px-8 md:px-12 py-2 md:py-3 border border-amber-500 text-amber-500 text-xs md:text-sm tracking-widest hover:bg-amber-500 hover:text-black transition-all duration-300"
         >
           GET ACCESS
         </button>
       </section>
 
       {/* Bottom Bar */}
-      <footer className="py-8 px-4 border-t border-white/10">
+      <footer className="py-4 md:py-8 px-4 border-t border-white/10">
         <div className="max-w-4xl mx-auto">
           {/* Social Links */}
-          <div className="flex flex-wrap justify-center gap-6 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-4 md:mb-6">
             <a 
               href="https://instagram.com/1of1firm" 
               target="_blank" 
@@ -289,7 +289,7 @@ export default function Menu({ onNavigate }: MenuProps) {
           </div>
 
           {/* Email */}
-          <div className="text-center mb-6">
+          <div className="text-center mb-3 md:mb-6">
             <a 
               href="mailto:contact@1of1firm.com"
               className="text-amber-500 hover:text-amber-400 transition-colors text-xs tracking-[0.15em]"
