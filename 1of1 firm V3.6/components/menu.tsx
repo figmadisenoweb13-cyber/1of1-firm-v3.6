@@ -155,12 +155,12 @@ export default function Menu({ onNavigate }: MenuProps) {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-[100svh] md:min-h-screen flex flex-col items-center justify-center">
-        <div className="absolute inset-0">
+      <section className="relative min-h-[100svh] md:min-h-screen flex flex-col items-center justify-center bg-black">
+        <div className="absolute inset-0 flex items-center justify-center">
           <img 
             src="https://f005.backblazeb2.com/file/b21of1firm/background/home.jpg"
             alt="1 OF 1 FIRM Background"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-contain md:object-cover object-center"
           />
         </div>
         <div className="absolute inset-0 bg-black/50" />
