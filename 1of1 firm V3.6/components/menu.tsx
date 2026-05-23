@@ -167,16 +167,16 @@ export default function Menu({ onNavigate }: MenuProps) {
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black" />
 
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-7xl md:text-9xl font-light tracking-wider">
+          <h1 className="text-4xl md:text-9xl font-light tracking-wider">
             <span className="text-white">1</span>
-            <span className="text-white/80 text-5xl md:text-7xl mx-2 md:mx-4">OF</span>
+            <span className="text-white/80 text-2xl md:text-7xl mx-1 md:mx-4">OF</span>
             <span className="text-white">1</span>
           </h1>
-          <p className="text-amber-500/80 text-sm md:text-base tracking-[0.4em] mt-4">#1UNIQUEEXPERIENCE</p>
+          <p className="text-amber-500/80 text-[7px] md:text-base tracking-[0.4em] mt-2 md:mt-4">#1UNIQUEEXPERIENCE</p>
 
-          <div className="mt-16 flex flex-col items-center">
-            <div className="w-px h-12 bg-amber-500/50" />
-            <p className="text-white/70 text-xs tracking-[0.3em] mt-4 uppercase">Enter the Universe</p>
+          <div className="mt-8 md:mt-16 flex flex-col items-center">
+            <div className="w-px h-8 md:h-12 bg-amber-500/50" />
+            <p className="text-white/70 text-[6px] md:text-xs tracking-[0.3em] mt-2 md:mt-4 uppercase">Enter the Universe</p>
             <ChevronDown className="w-5 h-5 text-white/50 mt-2 animate-bounce" />
           </div>
         </div>
