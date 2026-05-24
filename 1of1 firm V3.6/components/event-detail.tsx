@@ -292,7 +292,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
           <div
             className="w-1/2 h-32 md:h-40 bg-cover bg-center"
             style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=600&q=80')`,
+              backgroundImage: `url('https://f005.backblazeb2.com/file/b21of1firm/background/BBback2.png')`,
             }}
           />
         </div>
