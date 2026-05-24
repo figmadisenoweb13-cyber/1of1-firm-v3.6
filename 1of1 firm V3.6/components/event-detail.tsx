@@ -256,7 +256,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-16 overflow-hidden">
+      <section className="relative py-16 border-white/10 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
