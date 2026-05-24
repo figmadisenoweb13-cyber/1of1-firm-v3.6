@@ -140,7 +140,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80')`,
+            backgroundImage: `url('')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/30" />
