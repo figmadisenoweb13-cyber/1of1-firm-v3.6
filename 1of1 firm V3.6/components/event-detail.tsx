@@ -260,7 +260,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=1200&q=80')`,
+            backgroundImage: `url('https://f005.backblazeb2.com/file/b21of1firm/background/BBback2.png')`,
           }}
         />
         <div className="absolute inset-0 bg-black/70" />
