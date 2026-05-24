@@ -125,18 +125,18 @@ export default function BuyTicketsDetail({ onNavigate }: BuyTicketsDetailProps) 
         <div className="relative z-10 px-4 md:px-8 py-8 md:py-12">
           {/* Main Title */}
           <div className="text-center mb-8">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none">
+            <h1 className="text-2xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-none">
               <span className="block bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 bg-clip-text text-transparent">
                 WEEKEND
               </span>
-              <span className="block bg-gradient-to-r from-amber-500 via-amber-300 to-amber-500 bg-clip-text text-transparent mt-2">
+              <span className="block bg-gradient-to-r from-amber-500 via-amber-300 to-amber-500 bg-clip-text text-transparent mt-1 md:mt-2">
                 EVENTS
               </span>
             </h1>
           </div>
 
           {/* Subtitle */}
-          <p className="text-center text-white/60 text-sm md:text-base tracking-[0.15em] mb-8 max-w-md mx-auto">
+          <p className="text-center text-white/60 text-[9px] md:text-base tracking-[0.15em] mb-4 md:mb-8 max-w-md mx-auto">
             EXPERIENCIAS QUE MARCAN<br />TU FIN DE SEMANA.
           </p>
 
@@ -184,10 +184,10 @@ export default function BuyTicketsDetail({ onNavigate }: BuyTicketsDetailProps) 
 
                 {/* Title */}
                 <div className="mb-3">
-                  <h2 className="text-3xl md:text-4xl font-bold tracking-wider text-white">
+                  <h2 className="text-xl md:text-4xl font-bold tracking-wider text-white">
                     ANIMAL
                   </h2>
-                  <span className={`text-2xl md:text-3xl ${event.subtitleStyle === "script" ? "font-serif italic" : "italic font-light"} text-amber-500`}>
+                  <span className={`text-lg md:text-3xl ${event.subtitleStyle === "script" ? "font-serif italic" : "italic font-light"} text-amber-500`}>
                     {event.subtitle}
                   </span>
                 </div>
@@ -258,10 +258,10 @@ export default function BuyTicketsDetail({ onNavigate }: BuyTicketsDetailProps) 
                 <Users className="w-6 h-6 text-amber-500/70" />
               </div>
               <div className="flex-1">
-                <h3 className="text-lg font-bold tracking-wider mb-1">MESA VIP 10 PERSONAS</h3>
-                <p className="text-white/50 text-sm tracking-wider mb-3">EXPERIENCIA VIP PARA GRUPOS</p>
-                <div className="mb-3">
-                  <span className="text-3xl font-light text-white">$500.000</span>
+                <h3 className="text-sm md:text-lg font-bold tracking-wider mb-1">MESA VIP 10 PERSONAS</h3>
+                <p className="text-white/50 text-[9px] md:text-sm tracking-wider mb-2 md:mb-3">EXPERIENCIA VIP PARA GRUPOS</p>
+                <div className="mb-2 md:mb-3">
+                  <span className="text-xl md:text-3xl font-light text-white">$500.000</span>
                   <span className="text-white/50 text-sm ml-2">COP</span>
                 </div>
                 <p className="text-white/40 text-xs tracking-wider mb-4">NORMALMENTE $700K - $2M</p>

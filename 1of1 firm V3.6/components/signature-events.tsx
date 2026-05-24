@@ -59,14 +59,14 @@ function EventCard({
           <div>
             {/* Title Row */}
             <div className="flex items-start justify-between gap-2">
-              <h3 className="text-xl md:text-2xl font-light tracking-wider text-white">{title}</h3>
+              <h3 className="text-sm md:text-2xl font-light tracking-wider text-white">{title}</h3>
               {edition && (
                 <span className="text-amber-500 text-xs tracking-wider whitespace-nowrap">{edition}</span>
               )}
             </div>
 
             {/* Subtitle */}
-            <p className="text-amber-500/80 text-xs tracking-[0.15em] uppercase mt-1">{subtitle}</p>
+            <p className="text-amber-500/80 text-[9px] md:text-xs tracking-[0.15em] uppercase mt-1">{subtitle}</p>
 
             {/* Date & Location */}
             {(date || location) && (
@@ -271,8 +271,8 @@ export default function SignatureEvents({ onNavigate }: SignatureEventsProps) {
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black" />
 
         <div className="relative z-10 max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-light tracking-wider italic">SIGNATURE EVENTS</h1>
-          <p className="text-white/50 text-xs tracking-[0.2em] mt-2 uppercase">
+          <h1 className="text-xl md:text-5xl font-light tracking-wider italic">SIGNATURE EVENTS</h1>
+          <p className="text-white/50 text-[9px] md:text-xs tracking-[0.2em] mt-1 md:mt-2 uppercase">
             EXPERIENCES THAT DEFINE 1OF1.
           </p>
         </div>
