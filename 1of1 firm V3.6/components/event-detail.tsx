@@ -149,7 +149,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
         <div
           className="absolute right-0 top-0 bottom-0 w-1/2 bg-contain bg-right bg-no-repeat opacity-90 pointer-events-none"
           style={{
-            backgroundImage: `url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20260508-WA0007%20%281%29-2aOmr2Lfxb9nLW741KTLuJhzOPJR5x.jpg')`,
+            backgroundImage: `url('https://f005.backblazeb2.com/file/b21of1firm/background/BDsig.png')`,
           }}
         />
 
