@@ -83,13 +83,13 @@ export default function ContactDetail({ onNavigate }: ContactDetailProps) {
         {/* Content */}
         <div className="relative z-10 w-full px-6 md:px-12 pb-12 pt-24">
           <h1 
-            className="text-[2.5rem] md:text-[7rem] lg:text-[9rem] font-light leading-[0.85] tracking-tight text-white"
+            className="text-[1.5rem] md:text-[7rem] lg:text-[9rem] font-light leading-[0.85] tracking-tight text-white"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             CONTACT
           </h1>
-          <div className="w-8 md:w-12 h-0.5 bg-amber-500 mt-3 md:mt-6 mb-2 md:mb-4" />
-          <p className="text-amber-500/80 text-[9px] md:text-base tracking-[0.2em]">
+          <div className="w-6 md:w-12 h-0.5 bg-amber-500 mt-2 md:mt-6 mb-1 md:mb-4" />
+          <p className="text-amber-500/80 text-[6px] md:text-base tracking-[0.2em]">
             ENTER THE CONVERSATION.
           </p>
         </div>
@@ -120,13 +120,13 @@ export default function ContactDetail({ onNavigate }: ContactDetailProps) {
               {/* Card Content */}
               <div className="p-4 md:p-6 text-center">
                 <h3 
-                  className="text-sm md:text-2xl tracking-[0.15em] text-white mb-2"
+                  className="text-[10px] md:text-2xl tracking-[0.15em] text-white mb-2"
                   style={{ fontFamily: "'Playfair Display', serif" }}
                 >
                   {card.title}
                 </h3>
-                <div className="w-6 md:w-8 h-px bg-amber-500/50 mx-auto mb-2 md:mb-3" />
-                <p className="text-white/50 text-[8px] md:text-xs tracking-[0.1em] mb-4 md:mb-6">
+                <div className="w-5 md:w-8 h-px bg-amber-500/50 mx-auto mb-2 md:mb-3" />
+                <p className="text-white/50 text-[5px] md:text-xs tracking-[0.1em] mb-3 md:mb-6">
                   {card.subtitle}
                 </p>
 
@@ -135,7 +135,7 @@ export default function ContactDetail({ onNavigate }: ContactDetailProps) {
                   href={card.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 w-full py-2 md:py-3 border border-amber-500 text-amber-500 text-[10px] md:text-sm tracking-[0.2em] hover:bg-amber-500 hover:text-black transition-all duration-300"
+                  className="inline-flex items-center justify-center gap-2 w-full py-2 md:py-3 border border-amber-500 text-amber-500 text-[7px] md:text-sm tracking-[0.2em] hover:bg-amber-500 hover:text-black transition-all duration-300"
                 >
                   <card.buttonIcon className="w-4 h-4" />
                   {card.buttonText}
