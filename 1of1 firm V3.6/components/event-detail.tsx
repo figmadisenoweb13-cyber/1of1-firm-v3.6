@@ -140,7 +140,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('')`,
+            backgroundImage: `url('https://f005.backblazeb2.com/file/b21of1firm/background/BBback.png')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-black/30" />
