@@ -138,7 +138,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
       <section className="relative min-h-[60vh] flex flex-col justify-end pb-8">
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-contain md:bg-cover bg-center bg-no-repeat bg-black"
           style={{
             backgroundImage: `url('https://f005.backblazeb2.com/file/b21of1firm/background/BBback.png')`,
           }}
